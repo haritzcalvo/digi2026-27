@@ -1,18 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Haritz Calvo</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #555555;
+            color: white;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 80px 20px 50px;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #d0d8e5;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            background-color: #555555;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            background-color: #555555;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .proyectos {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .tarjeta {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            border-radius: 15px;
+            width: 280px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .tarjeta h2 {
+            margin-bottom: 15px;
+            color: #70a5ff;
+        }
+
+        .tarjeta p {
+            color: #d0d8e5;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
 <body>
-  <p>Mi nombre es <strong>Haritz</strong>, estoy estudiando DESARROLLO DE APLICACIONES MULTIPLATAFORMA (DAM) porque me gusta programar</p>
-  <p>Además, me gusta mucho ver el futbol y jugar a la play.</p>
-  <p>Estos son algunos de los proyectos que he programado</p>
-  <p><h1>LENGUAJE DE MARCAS</h1></p>
-  <p>1.EJERCICIOS DE TODO LO VISTO HASTA EL MOMENTO</p>
-  <ul>
-    <li><p>Enlace a<a href="https://haritzcalvo.github.io/digi2026-27/PRINCIPAL.html"> EJERCICIO 1</a></p></li>
-  </ul>
-  <p><h1>DIGITALIZACIÓN</h1></p>
-  <p>1. CURRICULUM</p>
-  <ul>
-    <li><p>Enlace a<a href="https://haritzcalvo.github.io/digi2026-27/curriculum.html"> CURRICULUM</a></p></li>
-  </ul>
 
+<header>
+    <h1>HARITZ CALVO</h1>
+    <p>Portafolio de<strong> DIGITALIZACIÓN y LENGUAJE DE MARCAS</strong></p>
+    <p>SELECCIONAR LA ASIGNATURA:</p>
+</header>
+<nav>
+    <a href="digi.html"><h2>1.Digi</a></h2>
+    <a href="lenguaje-marcas.html"><h2>2.Lenguaje de Marcas</a></h2>
+</nav>
+
+<main>
+    <h2>ASIGNATURAS DEL PORTAFOLIO</h2>
+
+    <div class="proyectos">
+        <section class="tarjeta">
+            <h2>DIGITALIZACIÓN</h2>
+            <p>En la página de digitalización, encontrarás mis trabajos y proyectos.</p>
+        </section>
+        <section class="tarjeta">
+            <h2>LENGUAJE DE MARCAS</h2>
+            <p>En la página de lenguaje de marcas, encontrarás mis ejercicios y proyectos.</p>
+        </section>
+    </div>
+</main>
 </body>
-
-
+</html>
