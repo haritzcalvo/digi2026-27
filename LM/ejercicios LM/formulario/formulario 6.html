@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>formulario 6</title>
+</head>
+<body>
+
+<h1>Su pedido</h1>
+
+<form action="Formulario1.aspx" method="get">
+    <table>
+        <tbody>
+        <tr>
+            <td>
+                <label for="prod1">Producto1</label>
+                <select id="prod1" name="prod1">
+                    <option value="Mochila">Mochila</option>
+                    <option value="Zapatilla">Zapatilla</option>
+                    <option value="Camiseta">Camiseta</option>
+                </select>
+                <label for="val1">Cantidad:</label>
+                <input type="number" id="val1" name="val1" min="1" max="5" value="2"><br>
+            </td>
+        </tr>
+        </tbody>
+        <tbody>
+        <tr>
+            <td>
+                <label for="prod2">Producto2</label>
+                <select id="prod2" name="prod2">
+                    <option value="Mochila">Mochila</option>
+                    <option value="Zapatilla" selected>Zapatilla</option>
+                    <option value="Camiseta">Camiseta</option>
+                </select>
+                <label for="val2">Cantidad:</label>
+                <input type="number" id="val2" name="val2" min="1" max="5" value="3"><br>
+            </td>
+        </tr>
+        </tbody>
+        <tbody>
+        <tr>
+            <td>
+                <label for="prod3">Producto3</label>
+                <select id="prod3" name="prod3">
+                    <option value="Mochila">Mochila</option>
+                    <option value="Zapatilla">Zapatilla</option>
+                    <option value="Camiseta" selected>Camiseta</option>
+                </select>
+                <label for="val3">Cantidad:</label>
+                <input type="number" id="val3" name="val3" min="1" max="5" value="2"><br>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <br>
+    <input type="submit" value="Enviar">
+</form>
+</body>
+</html>

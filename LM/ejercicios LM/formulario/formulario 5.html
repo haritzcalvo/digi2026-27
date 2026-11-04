@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>formulario 5</title>
+</head>
+<body>
+
+<form action="Ejercicio9.aspx" method="get">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" maxlength="15" required><br>
+
+    <label for="ciclo">Ciclo:</label>
+    <select id="ciclo" name="ciclo">
+        <option value="ASIR">ASIR</option>
+        <option value="DAM">DAM</option>
+    </select><br>
+
+    <label for="numero">Introduce un número de cuatro dígitos:</label><br>
+    <label for="numero">Numero:</label>
+    <input type="text" id="numero" name="numero" maxlength="4" pattern="\d{4}" required><br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>

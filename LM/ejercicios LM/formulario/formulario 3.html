@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulario 3</title>
+</head>
+
+<body>
+
+<p><h1>Formulario de Notas</h1></p>
+
+<form action="guardar.html" method="get">
+
+    <p>
+        <label for="nom">Nombre:</label>
+        <input type="text" id="nom" size="30" name="tnombre"/>
+    </p>
+
+    <p>
+        <label for="apel">Apellido:</label>
+        <input type="text" id="apel" size="30" name="tapellido"/>
+    </p>
+
+    <p>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="tfecha" min="2023-09-1" max="2024-06-5" />
+    </p>
+
+    <table border="1">
+
+        <thead>
+        <tr>
+            <th><strong>Asignatura</strong></th>
+            <th><strong>Nota</strong></th>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        <tr>
+            <td>
+                <select name="tasignatura1" id="asignatura1">
+                    <option value="1">Lenguaje de Marcas</option>
+                    <option value="2">Programación</option>
+                    <option value="3">Base de datos</option>
+                </select>
+            </td>
+
+            <td>
+                <input type="number" name="tnota1" id="nota1" min="0" max="10" step="1"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <select name="tasignatura2" id="asignatura2">
+                    <option value="1">Lenguaje de Marcas</option>
+                    <option value="2">Programación</option>
+                    <option value="3">Base de datos</option>
+                </select>
+            </td>
+
+            <td>
+                <input type="number" name="tnota2" id="nota2" min="0" max="10" step="1"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <select name="tasignatura3" id="asignatura3">
+                    <option value="1">Lenguaje de Marcas</option>
+                    <option value="2">Programación</option>
+                    <option value="3">Base de datos</option>
+                </select>
+            </td>
+
+            <td>
+                <input type="number" name="tnota3" id="nota3"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <label for="media">Media:</label>
+                <input type="number" id="media" name="tmedia" min="0" max="10" step="1"/>
+            </td>
+        </tr>
+
+        </tbody>
+
+    </table>
+
+    <input type="submit" value="Guardar">
+
+</form>
+
+</body>
+</html>
+<td colspan="2">
+
+
